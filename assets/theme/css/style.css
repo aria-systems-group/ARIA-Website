@@ -57,7 +57,7 @@ a {
     text-decoration: none; }
 
 figure {
-  margin-bottom: 0; }
+  margin-bottom: 100px; }
 
 body {
   color: #232323; }
@@ -605,7 +605,7 @@ blockquote {
     display: -ms-flexbox; } }
 @media (max-width: 1023px) {
   .menu .navbar-collapse {
-    max-height: 93.5vh; }
+    max-height: 93.5vh;}
     .menu .navbar-collapse.show {
       overflow: auto; } }
 @media (min-width: 1024px) {
@@ -635,7 +635,7 @@ blockquote {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
   -webkit-align-items: center;
-  -webkit-justify-content: space-between; }
+  -webkit-justify-content: space-between;}
 
 .navbar-collapse {
   -webkit-flex-basis: 100%;
@@ -647,6 +647,7 @@ blockquote {
   margin: 0 !important; }
 
 .nav {
+    max-width:1250px;
   display: -webkit-flex;
   -webkit-flex-wrap: wrap; }
 
