@@ -2,6 +2,35 @@
  * Mobirise v4 theme (https://mobirise.com/)
  * Copyright 2017 Mobirise
  */
+
+html{
+    max-width: 1250px;
+    margin: 0 auto;
+    
+}
+
+
+img{
+    max-width:100%
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
 section {
   background-color: #eeeeee; }
 
