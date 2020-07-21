@@ -6,7 +6,7 @@
 html{
     max-width: 1350px;
     margin: 0 auto;
-    
+
 }
 
 
@@ -59,6 +59,55 @@ ol,
 pre,
 blockquote {
   margin-bottom: 2.3125rem; }
+
+ol {
+  list-style: none;
+}
+
+ol.bibliography {
+  color: #666666;
+  font-size: 16px;
+  max-width: 1000px;
+  margin:0 auto;
+  margin-bottom: 0;
+}
+
+/* Where to put this */
+h1.bibliography {
+   color: #000;
+   font-size: 22px;
+   font-style: bold;
+   text-align:center;
+   margin-bottom: 30px;
+}
+
+h2.bibliography {
+   color: #000;
+   font-size: 20px;
+   font-style: bold;
+   text-align:center;
+}
+
+.bibliography p {
+    margin: 0;
+    padding: 0;
+}
+
+ul.bibinfo {
+   font-size: 14px;
+   padding: 5px 0px;
+   list-style-type: none;
+}
+
+.bibinfo li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.bibinfo li a:hover,
+.bibinfo li a:focus{
+   color: #000000;
+}
 
 pre {
   background: #f4f4f4;
