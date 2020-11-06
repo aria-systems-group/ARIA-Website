@@ -9,9 +9,9 @@ html{
 
 }
 
-
 img{
-    max-width:100%
+    max-width:100%;
+    /* vertical-align: middle; */
 }
 
 .column {
@@ -127,12 +127,18 @@ pre {
   justify-content: center;
   -webkit-justify-content: center; }
 
+h6, h6 a {
+  /* font-style: normal; */
+  color: #0f7699
+}
+
 a {
   font-style: normal;
   font-weight: 400;
   cursor: pointer; }
-  a, a:hover {
-    text-decoration: none; }
+
+  a:hover {
+    text-decoration: underline; }
 
 figure {
   margin-bottom: 100px; }
@@ -222,12 +228,20 @@ section {
 .mbr-bg-black {
   background-color: #000000; }
 
+.mbr-blue {
+  color: #0f7699;
+}
+
 /*! Text-aligns */
 .align-left {
   text-align: left; }
 
 .align-center {
   text-align: center; }
+
+.container-center {
+  position: relative;
+  height: 100%; }
 
 .align-right {
   text-align: right; }
@@ -280,9 +294,9 @@ section {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  -webkit-align-items: start;
-  -ms-flex-align: start;
-  align-items: start; }
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
   .media-container-row .media-size-item {
     width: 400px; }
 
@@ -321,8 +335,10 @@ figure[mbr-media-size] {
 
 .mbr-figure img,
 .mbr-figure iframe {
-  display: block;
-  width: 100%; }
+  /* display: block; */
+  align-self: center;
+  /* width: 100%;  */
+  }
 
 .card {
   background-color: transparent;
