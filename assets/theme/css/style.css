@@ -62,6 +62,11 @@ blockquote {
 
 ol {
   list-style: none;
+  color: #666666;
+}
+
+li {
+  color: #666666;
 }
 
 ol.bibliography {
