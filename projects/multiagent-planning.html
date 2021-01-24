@@ -7,18 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.11.4, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="/assets/images/aria_sys_icon.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/aria_sys_icon.jpg" type="image/x-icon">
   <meta name="description" content="ARIA Systems is a research group based out of the Department of Aerospace Engineering at the Universtiy of Colorado Boulder. ">
 
   <title>ARIA Systems Research Group: Multiagent Planning</title>
-  <link rel="stylesheet" href="/assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="/assets/tether/tether.min.css">
-  <link rel="stylesheet" href="/assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="/assets/theme/css/style.css">
-  <link rel="preload" as="style" href="/assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="/assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
 </head>
 <body>
@@ -37,8 +37,8 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="/index.html">
-                        <img src="/assets/images/aria_sys_banner.jpg" alt="Mobirise" title="" style="height: 7.4rem;">
+                    <a href="index.html">
+                        <img src="assets/images/aria_sys_banner.jpg" alt="Mobirise" title="" style="height: 7.4rem;">
                     </a>
                 </span>
 
@@ -46,13 +46,13 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                <li class="nav-item"><a class="nav-link link text-primary display-4" href="/about.html">ABOUT US</a></li>
-                <li class="nav-item"><a class="nav-link link text-primary display-4" href="/research.html">RESEARCH</a></li>
-                <li class="nav-item"><a class="nav-link link text-primary display-4" href="/publications.html">PUBLICATIONS</a></li>
-                <li class="nav-item"><a class="nav-link link text-primary display-4" href="/people.html">PEOPLE</a></li>
-                <li class="nav-item"><a class="nav-link link text-primary display-4" href="/outreach.html">OUTREACH</a></li>
-                <li class="nav-item"><a class="nav-link link text-primary display-4" href="/contact.html">CONTACT</a></li>
-                <li class="nav-item"><a class="nav-link link text-primary display-4" href="/join.html">JOIN</a></li>
+                <li class="nav-item"><a class="nav-link link text-primary display-4" href="about.html">ABOUT US</a></li>
+                <li class="nav-item"><a class="nav-link link text-primary display-4" href="research.html">RESEARCH</a></li>
+                <li class="nav-item"><a class="nav-link link text-primary display-4" href="publications.html">PUBLICATIONS</a></li>
+                <li class="nav-item"><a class="nav-link link text-primary display-4" href="people.html">PEOPLE</a></li>
+                <li class="nav-item"><a class="nav-link link text-primary display-4" href="outreach.html">OUTREACH</a></li>
+                <li class="nav-item"><a class="nav-link link text-primary display-4" href="contact.html">CONTACT</a></li>
+                <li class="nav-item"><a class="nav-link link text-primary display-4" href="join.html">JOIN</a></li>
             </ul>
         </div>
     </nav>
@@ -91,8 +91,10 @@
 
 <!-- <p> -->
 <p>As we begin employing teams of robots to accomplish complex tasks, it becomes difficult for a human to verify that future paths do not result in collisions. Therefore, we are working on new multiagent planning approaches that minimize the effot it takes a human to verify the paths.</p>
-
 <!--more-->
+<p>Multi-agent motion planning (MMP) is the problem of finding a motion plan for multiple agents such that when these agents are run simultaneously, none of the agents collide. These motion plans are traditionally computed using provably correct algorithms and immediately executed on a real system. In safety-critical applications, however, a human supervisor may want to verify that the plan is indeed collision-free prior to execution. This process can be extremely unintuitive since MMP solutions commonly have intersecting lines, making it difficult to verify that the agents do not collide. The inability for humans to validate traditional MMP algorithms leaves a huge trust-gap between motion planning experts and the daily-users who could benefit from using such algorithms. This work focuses on shortening the gap by incorporating explainability into traditional MMP algorithms.</p>
+
+<p>We investigate the notion of an explanation for a plan of MMP, based on visualization of the plan as a short sequence of images representing time segments, where in each time segment the trajectories of the agents are disjoint, clearly illustrating the safety of the plan. Presenting the plan in this way makes it very easy for a human to recognize the plan is collision free because recognizing line intersections happens very early in the cognitive process. Giving MMP algorithms the ability to explain their solutions to humans would greatly shorten the trust-gap between motion planning research experts and daily-users of these algorithms, consequentially allowing MMP algorithms to be further utilized within safety-critical systems.</p>
 
 <!-- </p> -->
 
@@ -136,19 +138,19 @@
     </div>
 </section>
 
-  <script src="/assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="/assets/popper/popper.min.js"></script>
-  <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="/assets/tether/tether.min.js"></script>
-  <script src="/assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="/assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
-  <script src="/assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
-  <script src="/assets/dropdown/js/nav-dropdown.js"></script>
-  <script src="/assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="/assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="/assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
-  <script src="/assets/theme/js/script.js"></script>
-  <script src="/assets/slidervideo/script.js"></script>
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/slidervideo/script.js"></script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
